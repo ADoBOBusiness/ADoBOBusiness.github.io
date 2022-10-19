@@ -1,10 +1,10 @@
 class MyHeader extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
-        <link rel="stylesheet" href="../header and footer/header-style.css">
+        <link rel="stylesheet" href="../Header and Footer/header-style.css">
         <header id="navbar">
             <a href="../Menu-page/menu-talent.html">
-                <img class="logo" src="../header and footer/pictures/ADoBO logo.jpg" alt="logo">
+                <img class="logo" src="../Header and Footer/pictures/ADoBO logo.jpg" alt="logo">
             </a>
             <nav>
                 <ul> <i class="nav__links">
@@ -24,7 +24,7 @@ customElements.define('my-header', MyHeader)
 class MyFooter extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
-        <link rel="stylesheet" href="../header and footer/footer-style.css">
+        <link rel="stylesheet" href="../Header and Footer/footer-style.css">
         <div class="footer">
         <div class="item">@2022 ADoBO. All rights reserved.</div>
         <div class="item-center">
@@ -33,10 +33,10 @@ class MyFooter extends HTMLElement {
         </div>
         <div class="item">
           <div id="social">
-            <img src="../header and footer/pictures/facebook.svg" alt="">
+            <img src="../Header and Footer/pictures/facebook.svg" alt="">
           </div>
           <div id="social">
-            <img src="../header and footer/pictures/twitter.svg" alt="">
+            <img src="../Header and Footer/pictures/twitter.svg" alt="">
           </div>
         </div>
     </div>
