@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About-Us-Page</title>
+    <link rel="stylesheet" href="AboutUsPageStyle.css">
+    <!--Call the Header and Footer-->
+    <script src="../Header and Footer/main.js"></script>
+    
+    
+    
+    
+</head>
+<body>
+  <!--Header-->
+  <my-header></my-header>
+  
+  <div id="content" style="text-decoration: none;">
+    <div id="empty-space"></div>
+    <br><br>
+  
+
+
+
+  <div id="popup">
+  <center><h1> Thank you!</h1></center>
+  <br><br>
+  <center><button type="button" onclick="showpop();">Ok</button></center>
+  </div>
+
+  <div id="popup1">
+    <center><h1> Are you sure you want to do this?</h1></center>
+    <br><br>
+    <center><button type="button" onclick="showpop1();resetInfo();">OK</button>
+    <button type="button" onclick="showpop1();">Cancel</button></center>
+    </div>
+
+  <div id="popup2">
+      <center><h1> Do you want to send this message?</h1></center>
+      <br><br>
+      <center><button type="button" onclick="showpop2();resetInfo();showpop();">Ok</button>
+      <button type="button" onclick="showpop2();">Cancel  </button></center>
+      </div>
+
+  
+  <div class="row">
+    <div class="column left">
+      <p class="p1">
+        <h2>Our Contact Details</h2>
+        <br>
+      </p>
+      
+      <p>
+        <strong>Address:</strong>
+        <br>Tristram Street, Hamilton Central, Hamilton 3200
+      </p>
+      <p>
+        <strong>Phone:</strong>
+        <br>07-838 6399
+      </p>
+      <p>
+    </div>
+    </div>
+    
+    
+    <div class="row" style="background-color: white;">
+      <div class="column right">
+    <p><h1>Contact Us</h1><br></p>
+    <p>Share your thoughts! We welcome all questions, comments and feedback</p>
+    
+    <div style="background-color: white;">
+        Your name<br>
+        <input type="text" id="name" name ="name"><br>
+        <span id="nameerror" style="color: red;"></span><br>
+        Your Email<br>
+        <input type="email" id="email" name ="mail"><br>
+        <span id="emailerror" style="color: red;"></span><br>
+        Your Message<br>
+        <textarea id="message" name =message></textarea><br>
+        <span id="messageerror" style="color: red;"></span>
+        
+        <br> 
+        <center>
+        <button type="button" onclick="chekcInfo();">Send</button>
+        <button type="button" onclick="showpop1(); ">Reset</button>             
+        </center>
+      </div>
+  
+      </div>
+    </div>
+  </div>
+
+
+  <!--Footer-->
+  <my-footer></my-footer>
+    <script src="AboutUsPage.js"></script>
+
+
+</body>
+</html>
