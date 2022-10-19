@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+#empty-space{
+    width: 100%; /*this is the first layer*/
+    height:180px;
+  }
+
+/* Slideshow */
+
+.mySlides {
+    padding: 0px 20%;
+}
+
+#content{
+    padding: 0px 20%;
+    text-align: left;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+  }
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  top: 10px;
+}
