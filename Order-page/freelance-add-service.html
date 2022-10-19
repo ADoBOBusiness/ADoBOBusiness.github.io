@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order page</title>
+    <link rel="stylesheet" href="order-multi-form-style.css">
+    <!--Call the Header and Footer-->
+    <script src="../Header and Footer - 3/main.js"></script>
+</head>
+  <!--Header-->
+  <my-header></my-header>
+
+    <body>
+  
+    <div class="form-container">
+        <form id="regForm" action="">
+        <div class="tab"><h1>Add new service:</h1>
+            <br>
+            <span id="fnameerror" style="color: red;"></span>
+            <p><input id="firstname" name="firstname" placeholder="Brief description..." oninput="this.className = ''"></p>
+            <br>
+            <span id="lnameerror" style="color: red;"></span>
+            <p><input id="lastname" name="lastname" placeholder="Enter Price (Basic)..." oninput="this.className = ''"></p>
+            <br>  
+            <span id="lnameerror" style="color: red;"></span>
+            <p><input id="lastname" name="lastname" placeholder="Enter Price (Pro)..." oninput="this.className = ''"></p>
+            <span id="lnameerror" style="color: red;"></span>
+            <br>
+            <p><input id="lastname" name="lastname" placeholder="Enter delivery time (in days)" oninput="this.className = ''"></p>
+            <br>
+
+            <div class="payment-container">
+              <p class="paymentdetails">
+                <select id="paymentType">
+                  <option disabled hidden selected>Choose platform</option> <!--this part is hidden-->
+                  <option value=5.50>Facebook</option>
+                  <option value=5.00>TikTok</option>
+                  <option value=7.00>Youtube</option>
+                  <option value=6.00>Instagram</option>
+                </select>
+              </p>
+              <p class="paymentdetails">
+                <select id="paymentType">
+                  <option disabled hidden selected>Choose platform</option> <!--this part is hidden-->
+                  <option value=5.50>Facebook</option>
+                  <option value=5.00>TikTok</option>
+                  <option value=7.00>Youtube</option>
+                  <option value=6.00>Instagram</option>
+                </select>
+              </p>
+              <p class="paymentdetails">
+                <select id="paymentType">
+                  <option disabled hidden selected>Choose platform</option> <!--this part is hidden-->
+                  <option value=5.50>Facebook</option>
+                  <option value=5.00>TikTok</option>
+                  <option value=7.00>Youtube</option>
+                  <option value=6.00>Instagram</option>
+                </select>
+              </p>
+              <p class="paymentdetails">
+                <select id="paymentType">
+                  <option disabled hidden selected>Choose category</option> <!--this part is hidden-->
+                  <option value=5.50>Food</option>
+                  <option value=5.00>Home</option>
+                  <option value=7.00>Entertainment</option>
+                  <option value=6.00>Personal Care</option>
+                  <option value=5.50>Health & Fitness</option>
+                  <option value=5.00>Shopping</option>
+                  <option value=7.00>Grocery</option>
+                  <option value=6.00>Miscellaneous</option>
+                  <option value=6.00>Travel</option>
+                </select>
+              </p>
+            </div>
+            
+            
+        </div>
+    </form>
+  </div>
+
+  <br><br><br><br><br>
+
+  <div class="products">
+    <div class=item>
+      <div id="pic">
+          <a href="../Menu-page/freelance-profile.html">
+              <img id="coffeepics" src="../Menu-page/Continue.png" alt="" style="width:6%; margin-left: 600px;">
+          </a>
+          
+      </div>
+  </div>
+
+
+  <!--Footer-->
+  <my-footer></my-footer>
+</body>
+<!--Order function-->
+    <script src="order-script.js"></script>
+    
+</html>
