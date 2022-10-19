@@ -3,7 +3,7 @@ class MyHeader extends HTMLElement {
         this.innerHTML = `
         <link rel="stylesheet" href="../Header and Footer/header-style.css">
         <header id="navbar">
-            <a href="../home-page/home-page.html">
+            <a href="../Home-page/home-page.html">
                 <img class="logo" src="../Header and Footer/pictures/ADoBO logo.jpg" alt="logo">
             </a>
             <nav>
