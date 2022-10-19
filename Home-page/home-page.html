@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home-Page</title>
+    <link rel="stylesheet" href="home-style.css"> 
+    <!--Call the Header and Footer-->
+    <script src="../Header and Footer/main.js"></script>
+</head>
+<body>
+  <!--Header-->
+  <my-header></my-header>
+
+  <!--Stick header-->
+  <div id="empty-space"></div>>
+  
+  <div id="TalentOrWork"></div>
+  <!--3 column x 1 row flexbox
+  <div class="flex-container">
+    <div class="item-areyou">
+      <a href="..\login-page\login-talent.html">
+        <img id="products" src=".\HomePage Pictures\FindingTalent.jpeg" alt="">
+      </a>
+    </div> 
+    <div class="item-areyou">
+      <a href="..\login-page\login-work.html">
+        <img id="products" src=".\HomePage Pictures\FindingWork.jpeg" alt="">
+      </a>
+    </div>  
+  </div>
+  -->
+
+  <div id="WhyUseAdobo"></div>
+  <div id="content0" style="color:#fff;">
+    <div id="empty-space1"></div>
+    Why use ADoBO?
+    <div id="empty-space1"></div>
+  </div>
+  <!--3 column x 1 row flexbox-->
+  <div class="flex-container" style="background-color: #323232;">
+    <div class="item">
+      <a href="#">
+        <img id="products" src="./WhyADoBO/1.png" alt="">
+      </a>
+    </div> 
+    <div class="item">
+      <a href="#">
+        <img id="products" src="./WhyADoBO/2.png" alt="">
+      </a>
+    </div>  
+    <div class="item">
+      <a href="#">
+        <img id="products" src="./WhyADoBO/3.png" alt="">
+      </a>
+    </div>  
+    <div id="empty-space1"></div>
+  </div>
+
+  <!--Slideshow-->
+  <div id="SuccessStories"></div>
+  <div id="empty-space1"></div>
+<div id="content2">
+  <h1 id="content">Success Stories</h1>
+  <div class="slideshow-container" >  
+
+    <!--Promo slide 1
+    'fade' - is a CSS effect for the picture-->
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+        <img src=".\Slideshow Pictures\Promo 1.PNG" style="width:100%">
+    </div>
+    
+    <!--Promo slide 2-->
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+        <img src=".\Slideshow Pictures\Promo 2.png" style="width:100%">
+    </div>
+    
+    <!--Promo slide 3-->
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src=".\Slideshow Pictures\Promo 3.png" style="width:100%">
+    </div>
+    
+
+    <!--Prev and Next arrows-->
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+  
+  </div>
+  <div id="empty-space1"></div>
+    
+  <!--Circles that indicate the current slide-->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+  </div>
+  </div>
+
+
+  <div id="HiringFreelancers"></div>
+  <div id="content0" style="color:#fff;">
+    <div id="empty-space1"></div>
+    Our Freelancers 
+    <div id="empty-space1"></div>
+  </div>
+
+  <div class="flex-container" style="background-color: #323232;">
+    <div class="item">
+      <a href="#">
+        <img id="products" src="./OurFreelancers/1.png" alt="">
+      </a>
+    </div> 
+    <div class="item">
+      <a href="#">
+        <img id="products" src="./OurFreelancers/2.png" alt="">
+      </a>
+    </div>  
+    <div class="item">
+      <a href="#">
+        <img id="products" src="./OurFreelancers/3.png" alt="">
+      </a>
+    </div>  
+    <div id="empty-space1"></div>
+  </div>
+
+<!--Footer-->
+<my-footer></my-footer>
+<!--Slide function-->
+<script src="home-app.js"></script>
+</div>
+</body>
+</html>
+
+
